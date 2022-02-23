@@ -29,7 +29,7 @@ API made to Dynaccurate Technical evaluation.
 API documentation can be found at http://localhost:8081/swagger-ui/index.html after application starts and below.
 
 ## Routes
-- News
+News Controller
 | Method  | Path  | Description  |
 | ------------ | ------------ | ------------ |
 | GET  |  /api/news | List all news |
@@ -40,7 +40,7 @@ API documentation can be found at http://localhost:8081/swagger-ui/index.html af
 | POST  | /api/news  | Create news  |
 | PUT  | /api/news/{id}  | Update news  |
 
--Comment
+Comment Controller
 | Method  | Path  | Description  |
 | ------------ | ------------ | ------------ |
 | GET  | /api/comment  | List all comments  |
