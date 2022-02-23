@@ -1,0 +1,37 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:12.2
+    hostname: microblog-postgres
+    container_name: microblog-postgres
+    environment:
+      POSTGRES_DB: microblog-postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - microblog-development-network
+    volumes:
+      - ./database:/var/lib/microblog-postgresql        
+      
+  pgadmin:
+    image: dpage/pgadmin4
+    hostname: microblog-pgadmin4
+    container_name: microblog-pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "microblog@dynaccurate.com"
+      PGADMIN_DEFAULT_PASSWORD: "dyn1234"
+    ports:
+      - "9090:80"
+    depends_on:
+      - postgres
+    networks:
+      - microblog-development-network
+  
+networks: 
+  microblog-development-network:
+    driver: bridge
+    
+    
