@@ -11,6 +11,12 @@ API made to [micro blog frontend](https://github.com/luisscarlos/micro-blog-web)
 - **[Docker](https://www.docker.com/)**
 - **[PostgreSQL](https://www.postgresql.org/)**
 
+### Features
+- Create, edit and delete a post.
+- List all posts.
+- Search a post by title or tags
+- Create, edit or delete a comment to a post.
+
 
 ## Run Locally
 
