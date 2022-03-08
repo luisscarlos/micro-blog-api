@@ -1,5 +1,5 @@
 
-API made to Dynaccurate Technical evaluation.
+API made to [micro blog frontend](https://github.com/luisscarlos/micro-blog-web) that allows to create posts like a news blog and add comments to each post.
 
 
 ## Tecnologies and tools
@@ -7,6 +7,7 @@ API made to Dynaccurate Technical evaluation.
  - **[Spring Boot](https://spring.io/projects/spring-boot)**
  - **[Spring Data JPA](https://spring.io/projects/spring-data-jpa#overview)** 
 - **[Hibernate](https://hibernate.org/orm/)**
+- **[Lombok](https://projectlombok.org/)**
 - **[Docker](https://www.docker.com/)**
 - **[PostgreSQL](https://www.postgresql.org/)**
 
@@ -26,7 +27,7 @@ API made to Dynaccurate Technical evaluation.
 - Import cloned project to your preferred IDE
 - Run the file MicroblogApplication.java
 
-API documentation can be found at http://localhost:8081/swagger-ui/index.html after application starts and below.
+API documentation can be found at http://localhost:8081/swagger-ui/index.html after application starts, and below.
 
 ## Routes
 News Controller
