@@ -10,6 +10,8 @@ API made to [micro blog frontend](https://github.com/luisscarlos/micro-blog-web)
 - **[Lombok](https://projectlombok.org/)**
 - **[Docker](https://www.docker.com/)**
 - **[PostgreSQL](https://www.postgresql.org/)**
+- **[Swagger](https://swagger.io/)**
+
 
 ### Features
 - Create, edit and delete a post.
